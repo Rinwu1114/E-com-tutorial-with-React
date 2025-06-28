@@ -1,8 +1,18 @@
+import Highlights from "./components/Highlights";
+import Landing from "./components/Landing";
+import Nav from "./components/Nav";
+import Featured from "./components/Featured";
+import Discounted from "./components/Discounted";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>TEST</h1>
+      <Nav />
+      <Landing />
+      <Highlights />
+      <Featured />
+      <Discounted />
     </div>
   );
 }
