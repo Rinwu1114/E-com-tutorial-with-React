@@ -3,7 +3,8 @@ import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 import Featured from "./components/Featured";
 import Discounted from "./components/Discounted";
-
+import Explore from "./components/Explore";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Highlights />
       <Featured />
       <Discounted />
+      <Explore />
+      <Footer />
     </div>
   );
 }
